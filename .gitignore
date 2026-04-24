@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Spark / Hadoop
+derby.log
+metastore_db/
+spark-warehouse/
+*.lzo
+*.crc
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datos (NUNCA subas datos reales a Git)
+data/
+*.csv
+*.parquet
+*.delta
+*.json
+
+# Entornos y Config
+.env
+pyrightconfig.json
+.envrc
+
+# IDEs
+.vscode/
+.idea/
+
